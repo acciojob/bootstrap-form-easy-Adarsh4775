@@ -8,25 +8,32 @@ h2{
 	
 }
 #first-name-input{
-	margin:5px;
+	margin:10px;
 }
 #last-name-input{
-	margin:5px;
+	margin:10px;
 }
 #email-input{
-	margin:5px;
+	margin:10px;
 }
 #college-input{
-	margin:5px;
+	margin:10px;
 	width:300px;
 }
 #graduation-input{
-	margin:5px;
+	margin:10px;
 }
 #roll-no-input{
-	margin:5px;
+	margin:10px;
 }
 .box{
 	display:flex;
+}
+button{
+	background-color:blue;
+	color:white;
+	padding:7px;
+	border:none;
+	border-radius:3px;
 }
 
