@@ -4,7 +4,7 @@ function bootForm(){
 	const lastName = document.getElementById("last-name-input");
     const email = document.getElementById("email-input");
 	const college = document.getElementById("college-input");
-	const graduation = document.getElementById("graduation-input");
+	
 	const rollNo = document.getElementById("roll-no-input");
 	const checkBox = document.getElementById("conditions-checkbox");
      const submit = document.getElementById("end");
@@ -13,7 +13,7 @@ let	firstValue = firstName.value;
 let	lastValue = lastName.value;
 let	emailValue = email.value;
 let	collegeValue = college.value;
-let	gradValue = graduation.value;
+
 let	rollValue = rollNo.value;
 let	boxValue = checkBox.value;
 
@@ -52,7 +52,7 @@ let	boxValue = checkBox.value;
 				  document.getElementById("college-error").textContent="" ; 
 			  }
 
-			    if(gradValue === "")
+			    if(let gradValue === "")
 			  {
 				document.getElementById("grad-error").textContent="Please select a valid Graduation year" ; 
 			  }
@@ -74,7 +74,8 @@ let	boxValue = checkBox.value;
 			  else{
 				  document.getElementById("checkbox-error").textContent="" ; 
 			  }
-		  
+
+			  bootform();
 		  
 		  
 		  
